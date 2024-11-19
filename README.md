@@ -1,6 +1,6 @@
 # Student Grading System
 
-> ⚠️ **Important:** This README provides a high-level overview of the project. For comprehensive details, including architecture, design decisions, and implementation, please refer to the [Project Documentation (PDF)](./Student%20Grading%20System%20Documentation).
+> ⚠️ **Important:** This README provides a high-level overview of the project. For comprehensive details, including architecture, design decisions, and implementation, please refer to the [Project Documentation (PDF)](./Student%20Grading%20System%20Documentation.pdf).
 
 The **Student Grading System** is a comprehensive project developed to evaluate and demonstrate proficiency in various Java frameworks and backend development technologies. This system evolves through three distinct stages: command-line implementation, traditional MVC web application, and Spring MVC/Spring REST integration.
 
@@ -81,4 +81,4 @@ Use appropriate credentials for Admin, Teacher, or Student roles.
 - Expand administrative capabilities to manage large datasets.
 
 ## Documentation
-For detailed documentation on the system's architecture, design, and implementation, please refer to the [Project Documentation (PDF)](./Student%20Grading%20System%20Documentation).
+For detailed documentation on the system's architecture, design, and implementation, please refer to the [Project Documentation (PDF)](./Student%20Grading%20System%20Documentation.pdf).
