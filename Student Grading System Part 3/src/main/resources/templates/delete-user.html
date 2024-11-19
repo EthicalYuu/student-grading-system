@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete User</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/delete-user-style.css}" />
+</head>
+<body>
+<div id="form-container">
+    <form action="/admin/deleteUser" method="post">
+        Enter User ID: <input type="text" name="username"><br>
+        Enter password: <input type="password" name="password"><br>
+        <input type="submit">
+    </form>
+    <p th:text="${message}"></p>
+</div>
+</body>
+</html>

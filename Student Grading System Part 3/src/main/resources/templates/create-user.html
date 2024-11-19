@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create User</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/create-user-style.css}" />
+</head>
+<body>
+
+<div id="form-container">
+    <form action="/admin/createUser" method="post">
+        Enter User ID: <input type="text" name="username"><br>
+        Enter First Name: <input type="text" name="firstName"><br>
+        Enter Last Name: <input type="text" name="lastName"><br>
+        Enter Role: <input type="text" name="roleName"><br>
+        Enter password: <input type="password" name="password"><br>
+        <input type="submit">
+    </form>
+    <p th:text="${message}"></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Course</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/create-course-style.css}" />
+
+</head>
+<body>
+<div id="form-container">
+
+    <form action="/admin/createCourse" method="post">
+        Enter Course Name: <input type="text" name="courseName"><br>
+        Enter Teacher ID: <input type="text" name="teacherId"><br>
+        <input type="submit">
+    </form>
+    <p th:text="${message}"></p>
+</div>
+</body>
+</html>
